@@ -37,7 +37,6 @@ The **Online Pharmacy Store** provides users with an interface to:
 - **Frontend**: HTML, CSS
 - **Backend**: Java
 - **Database**: MySQL
-- **Additional Tools**: IBM Quantum (for potential encryption/authentication layer)
 
 ---
 
