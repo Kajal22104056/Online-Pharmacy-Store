@@ -1,5 +1,7 @@
 # Healthcare Pharmacy website
 
+**Live:** [https://online-pharmacy-store-kajal.vercel.app](https://online-pharmacy-store-kajal.vercel.app)
+
 Next.js frontend for the Online Pharmacy Store academic project. Seed data is imported from `Database Schema/DBMS03.sql`.
 
 ```bash

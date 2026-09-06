@@ -34,7 +34,11 @@ The **Online Pharmacy Store** provides users with an interface to:
 
 ## 🌐 Live website
 
-The original project was a Java CLI + MySQL dump. A full website now lives in `web/`:
+**Always-on production URL:** [https://online-pharmacy-store-kajal.vercel.app](https://online-pharmacy-store-kajal.vercel.app)
+
+This is the stable Vercel production link (it stays the same on every deploy).
+
+The original project was a Java CLI + MySQL dump. The website source lives in `web/`:
 
 ```bash
 cd web
@@ -104,6 +108,7 @@ Project for academic submission.
 
 ```bash
 📦 Online-Pharmacy-Store
+├── 📂 web                                 # Next.js website (Vercel)
 ├── 📂 Command Line Interface              # CLI-based order and inventory interaction
 ├── 📂 Database Schema                     # SQL DDL scripts for database schema
 ├── 📂 Embedded SQL & OLAP Queries         # Queries for advanced analytics & reports
