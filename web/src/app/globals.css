@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f4fbf8;
+  --foreground: #0f172a;
+}
+
+body {
+  color: var(--foreground);
+  background:
+    radial-gradient(circle at top left, #d7f3ea 0, transparent 32%),
+    linear-gradient(180deg, #f4fbf8 0%, #eef6f3 100%);
+  min-height: 100vh;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.65rem 0.75rem;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 0.875rem;
+}
+
+th {
+  color: #0f766e;
+  font-weight: 600;
+  background: #f0fdfa;
+}
